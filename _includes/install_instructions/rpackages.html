@@ -18,15 +18,23 @@
     <div class="tab-content">
       <article role="tabpanel" class="tab-pane active" id="rpackages-general">
         <p>
-          Install R by downloading and running
-          <a href="https://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
-          from <a href="https://cran.r-project.org/index.html">CRAN</a>.
-          Also, please install the
-          <a href="https://www.rstudio.com/products/rstudio/download/#download">RStudio IDE</a>.
-          Note that if you have separate user and admin accounts, you should run the
-          installers as administrator (right-click on .exe file and select "Run as
-          administrator" instead of double-clicking). Otherwise problems may occur later,
-          for example when installing R packages.
+        <ol>
+            <li>Open RStudio</li>
+            <li>In the large window (known as the 'Source Code Panel') type the below commands:
+                <code>
+                # Install the tidyverse package:
+                install.packages("tidyverse")
+
+                # Install the ggplot2 package
+                install.packages("ggplot2")
+                
+                # install the dplyr package
+                install.packages('dplyr')
+                
+                </code>
+            </li>
+            <li>Run each command by either clicking the 'Run' button located near the top-right of the box where the </li>
+        </ol>
         </p>
       </article>
     </div>
